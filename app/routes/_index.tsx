@@ -2,7 +2,7 @@
  Este projeto foi criado apenas para testar o uso do zod com o react-hook-form no remix.run então toda a parte de estilização e organização de código foi deixada de lado.
 */
 
-import { Form, json, useActionData, useSubmit } from "@remix-run/react";
+import { json, useActionData, useSubmit } from "@remix-run/react";
 
 import type { ActionFunctionArgs } from "@remix-run/node"
 import { z } from "zod";
